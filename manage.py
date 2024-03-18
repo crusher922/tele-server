@@ -19,7 +19,7 @@ def main():
 
     # Escucha nuevos mensajes en el chat origen
     @client.on(events.NewMessage)
-    async def main(event):
+    async def mensaje(event):
         # Reemplaza con el ID del chat origen
         chat_origen = [927606242, -1001291285712, 906218834, -4104859139, -1001629605754, -1001179560361, 6485295670]
 
